@@ -1,9 +1,9 @@
 <div align=center>
-<a href="http://dface.io" target="_blank"><img src="http://pic.dface.io/dfacelogoblue.png" width="350"></a>
+<a href="http://dface.tech" target="_blank"><img src="http://dftech.oss-cn-hangzhou.aliyuncs.com/web/DFACE-logo_dark.png" width="350"></a>
 </div>
 
 -----------------
-# DFace • [![License](http://pic.dface.io/apache2.svg)](https://opensource.org/licenses/Apache-2.0) [![gitter](http://pic.dface.io/gitee.svg)](https://dfaceio.slack.com)
+# DFace (Deeplearning Face) • [![License](http://pic.dface.io/apache2.svg)](https://opensource.org/licenses/Apache-2.0) [![gitter](http://pic.dface.io/gitee.svg)](https://dfaceio.slack.com)
 
 
 | **`Linux CPU`** | **`Linux GPU`** | **`Mac OS CPU`** | **`Windows CPU`** |
@@ -62,7 +62,7 @@ git clone https://github.com/kuaikuaikim/DFace.git
 ```
 
 
-Also we provide a anaconda environment dependency list called environment.yml (windows please use environment-win64.yml) in the root path. 
+Also we provide a anaconda environment dependency list called environment.yml (windows please use environment-win64.yml,Mac environment_osx.yaml) in the root path. 
 You can create your DFace environment very easily.
 ```shell
 cd DFace
@@ -145,7 +145,7 @@ python dface/train_net/train_o_net.py
 ```
 
 #### Test face detection  
-**If you don't want to train,you can request me to get model parameters file, then put onet_epoch.pt,pnet_epoch.pt,rnet_epoch.pt in model_store folder.**
+**If you don't want to train,i have put onet_epoch.pt,pnet_epoch.pt,rnet_epoch.pt in model_store folder.You just try test_image.py**
 
 ```shell
 python test_image.py
